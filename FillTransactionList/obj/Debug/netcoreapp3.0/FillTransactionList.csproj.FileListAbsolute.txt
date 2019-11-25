@@ -1,0 +1,11 @@
+D:\VSCode Projects\FillTransactionList\FillTransactionList\bin\Debug\netcoreapp3.0\FillTransactionList.exe
+D:\VSCode Projects\FillTransactionList\FillTransactionList\bin\Debug\netcoreapp3.0\FillTransactionList.deps.json
+D:\VSCode Projects\FillTransactionList\FillTransactionList\bin\Debug\netcoreapp3.0\FillTransactionList.runtimeconfig.json
+D:\VSCode Projects\FillTransactionList\FillTransactionList\bin\Debug\netcoreapp3.0\FillTransactionList.runtimeconfig.dev.json
+D:\VSCode Projects\FillTransactionList\FillTransactionList\bin\Debug\netcoreapp3.0\FillTransactionList.dll
+D:\VSCode Projects\FillTransactionList\FillTransactionList\bin\Debug\netcoreapp3.0\FillTransactionList.pdb
+D:\VSCode Projects\FillTransactionList\FillTransactionList\obj\Debug\netcoreapp3.0\FillTransactionList.csprojAssemblyReference.cache
+D:\VSCode Projects\FillTransactionList\FillTransactionList\obj\Debug\netcoreapp3.0\FillTransactionList.AssemblyInfoInputs.cache
+D:\VSCode Projects\FillTransactionList\FillTransactionList\obj\Debug\netcoreapp3.0\FillTransactionList.AssemblyInfo.cs
+D:\VSCode Projects\FillTransactionList\FillTransactionList\obj\Debug\netcoreapp3.0\FillTransactionList.dll
+D:\VSCode Projects\FillTransactionList\FillTransactionList\obj\Debug\netcoreapp3.0\FillTransactionList.pdb
