@@ -6,7 +6,17 @@ namespace FillTransactionList
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FillTransactionList tList;
+            if(args.Length > 0)
+            {
+                tList = new FillTransactionList(args[0]);
+                tList.OpenAndReadTransactionsList();
+                tList.PrintTransactionList();
+            }
+            else
+            {
+                Console.WriteLine("Need file path in first argument.");
+            }
         }
     }
 }
