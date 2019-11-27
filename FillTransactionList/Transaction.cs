@@ -5,12 +5,12 @@ namespace FillTransactionList
 {
     public class Transaction 
     {
-        public int id;
-        public string? _Date;
-        public string? _Description;
-        public string? _Debit;   //decimal
-        public string? _Credit;  //decimal
-        public string? _Category;
+        public int id { get; set; }
+        public string? _Date { get; set; }
+        public string? _Description { get; set; }
+        public string? _Debit { get; set; }  //decimal
+        public string? _Credit { get; set; }  //decimal
+        public string? _Category { get; set; }
 
         public override string ToString()
         {

@@ -8,7 +8,7 @@ namespace FillTransactionList
     public class FillTransactionList
     {
         private string path;
-        private List<Transaction> transactions;
+        public List<Transaction> transactions;
         private LogCSVFileParser log;
 
         public FillTransactionList(string filepath = "")
@@ -52,7 +52,7 @@ namespace FillTransactionList
                                     sr.Read(); //Read and throw away the quote
                                     quoteCount++;
                                     totalQuoteCount++;
-                                    Console.WriteLine($"QuoteCount: {quoteCount}");
+                                    //Console.WriteLine($"QuoteCount: {quoteCount}");  //For checking whether quotes are being read
 
                                     while(sr.Peek() > -1 && sr.Peek() != '"')
                                     {

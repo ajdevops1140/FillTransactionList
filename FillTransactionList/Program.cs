@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text.Json;
 
 namespace FillTransactionList
 {
@@ -11,12 +13,15 @@ namespace FillTransactionList
             {
                 tList = new FillTransactionList(args[0]);
                 tList.OpenAndReadTransactionsList();
-                tList.PrintTransactionList();
+                //tList.PrintTransactionList();
+                var jsonString = JsonSerializer.Serialize(tList.transactions);
+                Console.WriteLine(jsonString);                
             }
             else
             {
                 Console.WriteLine("Need file path in first argument.");
             }
+        
         }
     }
 }
