@@ -29,17 +29,17 @@ namespace FillTransactionList
             } 
             catch(IOException e)
             {
-                Console.WriteLine(e);
+                //Console.WriteLine(e);
             }
 
             utf = new UTF8Encoding();   
             
             if(fs.CanWrite)
             {
-                Console.WriteLine("LogFile has been opened.");
+                //Console.WriteLine("LogFile has been opened.");
             }else
             {
-                Console.WriteLine("LogFile has not been opened.");
+                //Console.WriteLine("LogFile has not been opened.");
             }
         }
 
@@ -53,7 +53,7 @@ namespace FillTransactionList
             }
             else
             {
-                Console.WriteLine($"Could not write {input}");
+                //Console.WriteLine($"Could not write {input}");
             }
         }
 
@@ -64,7 +64,7 @@ namespace FillTransactionList
             }
             catch(IOException e)
             {
-                Console.WriteLine("FileStream could not be disposed.");
+                //Console.WriteLine("FileStream could not be disposed.");
             }
         }
     }

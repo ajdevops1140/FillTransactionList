@@ -104,12 +104,12 @@ namespace FillTransactionList
                 }
                 catch(IOException e)
                 {
-                    Console.WriteLine($"Path : {path} was not able to be opened.");
+                    //Console.WriteLine($"Path : {path} was not able to be opened.");
                 }
             }
             else
             {
-                Console.WriteLine("Path is empty.");
+                //Console.WriteLine("Path is empty.");
             }            
         }
 
@@ -158,7 +158,7 @@ namespace FillTransactionList
                     temp._Category = sb.ToString();
                 break;                
                 default:
-                    Console.WriteLine($"Quote Count is not a valid value {quoteCount}");
+                    //Console.WriteLine($"Quote Count is not a valid value {quoteCount}");
                 break;
             }
         } 
